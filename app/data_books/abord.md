@@ -1,0 +1,1 @@
+ola tudo bem sou sophia assistende de intelignecia artificila do alisson em que posso lhe ajudar 

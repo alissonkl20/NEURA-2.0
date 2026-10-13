@@ -1,0 +1,147 @@
+{
+  "skills": {
+    "abordagem": {
+      "file": "skills/abordagem.md",
+      "triggers": [
+        "abordagem",
+        "tom",
+        "estilo",
+        "como responder",
+        "como falar",
+        "jeito",
+        "saudação",
+        "saudacao",
+        "personalidade",
+        "comunicação",
+        "atendimento",
+        "resposta natural"
+      ],
+      "descricao": "Manual de comunicação, personalidade e abordagens humanizadas da Sophia, assistente de inteligência artificial do Alisson."
+    },
+    "contato": {
+      "file": "skills/contato.md",
+      "triggers": [
+        "contato",
+        "email",
+        "e-mail",
+        "telefone",
+        "whatsapp",
+        "falar",
+        "contratar",
+        "chamar"
+      ],
+      "descricao": "Como entrar em contato com Alisson"
+    },
+    "experiencia": {
+      "file": "skills/experiencia.md",
+      "triggers": [
+        "experiência",
+        "experiencia",
+        "trabalhou",
+        "empresa",
+        "carreira",
+        "portfólio",
+        "portfolio",
+        "projeto",
+        "projetos",
+        "freelance",
+        "rauzee",
+        "whaticket",
+        "code agent",
+        "sophia",
+        "draxy",
+        "baskin",
+        "open source",
+        "opensource",
+        "finece",
+        "emailrest"
+      ],
+      "descricao": "Experiência profissional, projetos e portfólio"
+    },
+    "pessoal": {
+      "file": "skills/pessoal.md",
+      "triggers": [
+        "time",
+        "futebol",
+        "hobby",
+        "hobbies",
+        "gosta",
+        "pessoal",
+        "família",
+        "familia",
+        "idade",
+        "quem é",
+        "história",
+        "historia",
+        "trajetória",
+        "trajetoria"
+      ],
+      "descricao": "Informações pessoais e trajetória de aprendizado de Alisson"
+    },
+    "precos": {
+      "file": "skills/precos.md",
+      "triggers": [
+        "valor",
+        "preço",
+        "preco",
+        "cobra",
+        "quanto custa",
+        "orçamento",
+        "orcamento",
+        "hora técnica",
+        "hora tecnica",
+        "quanto sai"
+      ],
+      "descricao": "Valores e formas de cobrança"
+    },
+    "servicos": {
+      "file": "skills/servicos.md",
+      "triggers": [
+        "serviço",
+        "servico",
+        "oferece",
+        "faz",
+        "projeto",
+        "desenvolve",
+        "pode fazer",
+        "trabalha",
+        "backend",
+        "frontend",
+        "site",
+        "landing",
+        "template",
+        "portfólio",
+        "portfolio",
+        "empresa",
+        "automação",
+        "automacao",
+        "bug",
+        "segurança",
+        "seguranca"
+      ],
+      "descricao": "Serviços oferecidos por Alisson"
+    },
+    "stack": {
+      "file": "skills/stack.md",
+      "triggers": [
+        "stack",
+        "tecnologia",
+        "linguagem",
+        "framework",
+        "ferramenta",
+        "programa em",
+        "trabalha com",
+        "backend",
+        "frontend",
+        "node",
+        "python",
+        "php",
+        "laravel",
+        "react",
+        "vue",
+        "next"
+      ],
+      "descricao": "Tecnologias e ferramentas que Alisson domina"
+    }
+  }
+}

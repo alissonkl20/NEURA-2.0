@@ -1,0 +1,7 @@
+venv/
+__pycache__/
+*.pyc
+data_books/rag_index/
+data_books/sessions/
+data_books/books.jsonl
+data_books/corpus.txt
