@@ -1,31 +1,22 @@
 ---
 id: servicos
-triggers: ["serviço", "servico", "oferece", "faz", "projeto", "desenvolve", "pode fazer", "trabalha", "backend", "frontend", "site", "landing", "template", "portfólio", "portfolio", "empresa", "automação", "automacao", "bug", "segurança", "seguranca"]
-descricao: "Serviços oferecidos por Alisson"
-sensivel: false
+triggers: ["serviço", "servico", "servicoes", "oferece", "faz", "desenvolve", "pode fazer", "trabalha", "backend", "frontend", "site", "automação", "automacao", "bug"]
+descricao: "Serviços oferecidos pelo Alisson"
+uso: "Usar SÓ quando o usuário perguntar o que o Alisson faz ou quais serviços oferece. Responder em 2-3 frases, SEM listar tudo. Perguntar o que o usuário procura antes de detalhar."
 ---
 
-# Serviços oferecidos
+# Serviços do Alisson
 
-## Desenvolvimento backend
-- APIs REST robustas, escaláveis, seguras e performáticas.
-- Aplicação de boas práticas e Clean Code.
-- Modelagem e otimização de banco de dados.
+Resumo: desenvolvimento de software full stack, com foco em backend.
 
-## Desenvolvimento frontend
-- Interfaces otimizadas, bonitas e modernas, voltadas ao público empresarial.
-- Templates e portfólios para empresas com design premium — produto com impacto visual instantâneo.
+## Principais serviços
+- **Backend:** APIs REST seguras e performáticas; modelagem e otimização de banco.
+- **Frontend:** interfaces modernas com foco empresarial (templates, portfólios, landing pages).
+- **Correção e manutenção:** bugs, refatoração de código legado, segurança, UI/UX.
+- **Automação:** assistentes virtuais de atendimento e automações de tarefas repetitivas.
+- **Infra:** deploy em nuvem (AWS, VPS) e documentação técnica.
 
-## Correção e manutenção
-- Correção de bugs.
-- Refatoração de código legado.
-- Auditoria, verificação e melhoria de segurança.
-- Melhorias de UI/UX.
-
-## Automação e atendimento
-- Criação de assistentes virtuais de atendimento.
-- Automações para tarefas repetitivas.
-
-## Infraestrutura e documentação
-- Hospedagem em nuvem.
-- Documentação técnica.
+## Regras de resposta
+- Falar SEMPRE em nome do Alisson ("ele oferece...", NUNCA "eu ofereço").
+- NÃO listar todos os serviços. Perguntar o que o usuário procura.
+- Se pedir detalhe, aprofundar SÓ no item perguntado.

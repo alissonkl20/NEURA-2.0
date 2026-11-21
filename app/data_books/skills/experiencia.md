@@ -1,80 +1,40 @@
 ---
 id: experiencia
-triggers: ["experiência", "experiencia", "trabalhou", "empresa", "carreira", "portfólio", "portfolio", "projeto", "projetos", "freelance", "rauzee", "whaticket", "code agent", "sophia", "draxy", "baskin", "open source", "opensource", "finece", "emailrest"]
-descricao: "Experiência profissional, projetos e portfólio"
-sensivel: false
+triggers: ["experiência", "experiencia", "trabalhou", "empresa", "carreira", "portfólio", "portfolio", "projeto", "projetos", "freelance", "cv"]
+descricao: "Experiência profissional do Alisson"
+uso: "Usar SÓ quando o usuário perguntar sobre experiência, empresas, carreira, CV ou portfólio. Responder em 2-4 frases. Citar no máximo 1-2 exemplos, não listar tudo."
 ---
 
-# Experiência profissional
+# Experiência profissional do Alisson
 
-## Desenvolvedor Full Stack — Rauzee
-**Março de 2026 – Julho de 2026**
+**Resumo:** Desenvolvedor Full Stack com mais de 3 anos de experiência.
+Atua em todo o ciclo: APIs REST, backends escaláveis, interfaces responsivas e automações.
 
-- Otimizei fluxos B2B de análise de crédito para correspondentes bancários, aumentando agilidade, controle e precisão nos processos de aprovação.
-- Mantive e evoluí o sistema em Laravel, PHP e Vue.js, com MySQL, Redis (cache) e AWS (S3 e EC2).
-- Entreguei melhorias e novas funcionalidades no portal em Next.js e TypeScript.
+## Empresas
 
-**Tecnologias:** Laravel, PHP, Vue.js, MySQL, Redis, AWS (S3, EC2), Next.js, TypeScript.
+### Rauzee (Mar 2026 – Jul 2026)
+Startup voltada a correspondentes bancários.
+- Otimizou fluxos B2B de análise de crédito.
+- Backend em Laravel/PHP; frontend em Vue; portal em Next.js + TypeScript.
+- MySQL, Redis (cache e filas), AWS (S3, EC2, Lambda).
 
-## Desenvolvedor Full Stack — Whaticket SaaS
-**Julho de 2025 – Fevereiro de 2026**
+### Whaticket SaaS (Jul 2025 – Fev 2026)
+Plataforma SaaS de atendimento multicanal.
+- Implementou **do zero** um módulo de transcrição de áudio integrado à API do ChatGPT — backend e interface.
+- APIs REST em Node.js + Express + TypeScript; frontend em React; PostgreSQL.
+- Deploy em VPS Hostinger com Docker.
 
-- Construí de ponta a ponta um módulo de transcrição de áudio integrado à API do ChatGPT, em uma plataforma de atendimento SaaS.
-- Criei APIs REST com Node.js, Express e TypeScript e realizei deploy em VPS com Docker.
-- Integrei a interface em React (TSX) ao PostgreSQL.
+### Freelance (Mai 2023 – Jun 2025)
+- ~20 projetos: correção de bugs, refatoração de legado, features, chatbots, automações, testes E2E, documentação.
+- Reduziu tempo de queries críticas de 2–4s para 300–500ms com índices e otimização.
+- Atuou com Java + Spring Boot, Node.js, React, Next.js, Docker, VPS, AWS.
 
-**Tecnologias:** Node.js, Express, TypeScript, React (TSX), PostgreSQL, Docker.
+## Projetos pessoais (menção breve)
+- **GoNature** — app para trilheiros e camping (Django + React, em desenvolvimento).
+- **Ponto Web** — sistema de ponto eletrônico (deploy em Vercel).
+- **Draxy** — agente CLI para Laravel (PHP + Ollama + FastAPI + RAG).
 
-## Desenvolvedor Full Stack — Freelance
-**Maio de 2023 – Junho de 2025**
-
-- Entreguei cerca de 20 projetos em 2 anos, com refatoração de legado, correção de bugs, features, chatbots, automações, testes E2E e de carga, documentação e alinhamento de roadmap com clientes.
-- Reduzi o tempo de resposta de consultas críticas de 2–4 segundos para 300–500 ms nos picos de uso, aplicando índices e otimização de queries.
-- Apliquei validação de upload e endurecimento de segurança, bloqueando arquivos perigosos e reduzindo risco de injeção ou execução maliciosa.
-- Melhorei UI/UX com fluxos mais claros, animações consistentes e identidade visual mais profissional.
-
-**Tecnologias:** PostgreSQL, Node.js, Java, PHP, Laravel, Python, Flask, Fast Api, MySQL, testes, segurança, RPA, QA.
-
-## Projetos pessoais
-
-### Draxy — Code Agent CLI (privado)
-Code agent especializado em programar em PHP com Laravel. Treinado com docs do PHP, Laravel, dumps do StackOverflow, padrões de código e definições de boas práticas do ecossistema PHP/Laravel.
-
-- **Stack:** FastAPI, shell scripts (`.sh`)
-- **Arquiteturas:** monolito, microserviços, híbrida
-- **Produto geral:** monolito com consumo de microserviços
-- **Padrões:** Clean Architecture
-- **Comandos:** shell Linux básico (cd, ls, mkdir, rm -rf), Git (add, commit, push, diff, stash, stash pop, verify)
-- **Objetivo:** code agent autônomo para criação end-to-end de backend em PHP com Laravel.
-
-### IA Finece (privado)
-Leitura e análise de extratos bancários (Nubank, PicPay, Caixa). Distingue e classifica lançamentos, e gera análise preditiva do fluxo bancário.
-
-- **Stack:** Flask (API), HTML, CSS
-- Categorização automática: mercado, assinatura, posto de gasolina, diversão, gasto mensal, gasto fixo, gasto variável.
-- Análise por prefixo do bloco de texto do extrato.
-
-### Sophia IA (depreciada) → Sophia IA 2.0
-Assistente virtual para atendimento, triagem e geração de proposta.
-
-- **Versão antiga:** PHP, Laravel, HTML, CSS
-- **Versão 2.0:** FastAPI
-- A 2.0 também faz predição antes do serviço, explica serviços básicos, sugere a melhor opção, empacota e gera um resumo da conversa com previsão e explicação — para o Alisson entrar em contato depois com o cliente.
-
-### EmailREST (privado)
-Assistente conectado ao e-mail profissional. Lê o header da mensagem, gera resumo e traduz o e-mail. Modelo local treinado para agilidade no trabalho.
-
-- **Stack:** Flask (API), HTML, CSS
-
-## Open source (em desenvolvimento)
-
-### Code Agent CLI (4GB RAM)
-Code agent acionável via CLI com modelo quantizado Q2 para rodar em 4GB de RAM. Ajuda a conciliar comandos Git (commit, push, branch, diff).
-
-- **Stack:** FastAPI (PHP com Laravel no escopo de atuação)
-- **Treinamento híbrido:** uma parte consome prefixos dos `.md`; outra é uma rede neural padronizada por vetores lógicos (métodos de aprendizado contínuo).
-
-### Baskin
-Calculadora para cálculos direcionais a animação 3D: criar fórmula, fazer a conta, gerar modelo 3D. Objetivo: treinar modelo de IA para aprender padronização de quinas, linhas, padrões, cálculos de física, dimensionamento, área, deformidade e aceleração — para criar animações 3D com mais facilidade.
-
-- **Stack:** PHP, Laravel 
+## Regras de resposta
+- Falar SEMPRE em nome do Alisson ("ele trabalhou em...").
+- NÃO listar tudo. Citar 1–2 experiências.
+- Se pedir detalhe de projeto específico, oferecer contato direto.

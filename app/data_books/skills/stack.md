@@ -1,30 +1,19 @@
 ---
 id: stack
-triggers: ["stack", "tecnologia", "linguagem", "framework", "ferramenta", "programa em", "trabalha com", "backend", "frontend", "node", "python", "php", "laravel", "react", "vue", "next"]
-descricao: "Tecnologias e ferramentas que Alisson domina"
-sensivel: false
+triggers: ["stack", "tecnologia", "linguagem", "framework", "ferramenta", "programa em", "backend", "frontend", "node", "python", "php", "laravel", "react", "vue", "next", "java", "spring"]
+descricao: "Tecnologias e ferramentas do Alisson"
+uso: "Usar SÓ quando o usuário perguntar sobre tecnologias, linguagens ou frameworks. Responder em 2-3 frases, citando SÓ o que for relevante à pergunta. NÃO despejar a lista inteira."
 ---
 
 # Stack do Alisson
 
-## Backend
-- **Linguagens:** PHP, Python, Node.js, TypeScript
-- **Frameworks:** Laravel, Flask, Django
-- **APIs:** REST, integração com serviços externos
-- **Bancos:** PostgreSQL, MySQL, Redis
+- **Backend:** PHP (Laravel), Python (Django, Flask), Node.js (Express), TypeScript, Java (Spring Boot)
+- **Frontend:** React, Next.js, Vue.js, TypeScript, Tailwind
+- **Dados:** PostgreSQL, MySQL, Redis (cache e filas)
+- **Cloud/Infra:** AWS (S3, EC2, Lambda), Docker, VPS, Git, CI/CD
+- **IA:** LLMs locais, RAG, chatbots, processamento de documentos
 
-## Frontend
-- **Frameworks:** React, Next.js, Vue
-- **Estilo:** Tailwind, CSS moderno, UI/UX focado em usabilidade
-
-## DevOps / Infra
-- Git, Docker, CI/CD básico, deploy em VPS e cloud
-- Segurança em uploads e validações
-
-## Áreas de atuação
-- Desenvolvimento full stack com foco em backend
-- Refatoração de código legado
-- Correção de bugs
-- Chatbots de atendimento
-- Automações para processos repetitivos
-- Documentação técnica
+## Regras de resposta
+- Falar SEMPRE em nome do Alisson ("ele trabalha com...").
+- NÃO despejar a lista inteira. Citar SÓ o que for relevante à pergunta.
+- Se perguntar "o que ele usa pra X", responder só X.
