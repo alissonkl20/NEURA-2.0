@@ -1,0 +1,25 @@
+services:
+  neurachat:
+    build:
+      context: ..
+      dockerfile: Dockerfile
+
+    container_name: neurachat-app
+
+    network_mode: host
+
+    stdin_open: true
+    tty: true
+
+    environment:
+      OLLAMA_HOST: http://127.0.0.1:11434
+      PYTHONUNBUFFERED: "1"
+
+    volumes:
+      - ../data_books:/app/data_books
+
+    working_dir: /app
+
+    command: ["python", "-u", "shell.py"]
+
+    restart: unless-stopped

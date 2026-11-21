@@ -1,0 +1,50 @@
+
+### [2026-10-12T16:44:39.118794+00:00] session=cli
+USER: eaer
+ASSISTANT:  Sim, sou um assistente inteligente projetado para ajudá-lo de forma eficiente e precisa. Como sou um modelo de linguagem de computação, minha resposta é sempre direta e objetiva, como você mesmo indicou. Em português, o termo equivalente a "eaer" não é claro, pois ele não pertence a nenhuma língua conhecida. Por favor, verifique a ortografia ou forneça mais detalhes se necessário.
+
+### [2026-10-12T16:56:16.240030+00:00] session=cli
+USER: eae
+ASSISTANT:  Olá! Sim, sou um assistente inteligente e estou aqui para ajudá-lo. Se precisar de ajuda com algo específico, só me dizer.
+
+### [2026-10-12T16:59:50.439970+00:00] session=cli
+USER: boa tarde
+ASSISTANT:  Olá! Bem-vindo ao Neurachat! Qual bebida gostaria de pedir hoje? Nossa seleção disponível é:
+
+* Cerveja IPA artesanal (cerveja, 6%, R$ 18)
+* Caipirinha (coquetel, ~15%, R$ 22)
+* Whisky single malt (destilado, 40%, R$ 35)
+* Gin tônica (coquetel, ~12%, R$ 24)
+* Vinho tinto seco (vinho, 13%, R$ 28)
+* Suco natural de laranja (sem álcool, 0%, R$ 12)
+* Água com gás (sem álcool, 0%, R$ 6)
+
+Se desejar algo não listado acima, por favor me informe para verificar a disponibilidade.
+
+### [2026-10-12T17:00:22.427217+00:00] session=cli
+USER: queria uma sprite de 600ml
+ASSISTANT:  Olá! Gostaria de pedir uma Sprite de 600ml? Por favor, note que não estamos oferecendo Spirits hoje. Porém, recomendo o Suco Natural de Laranja, que é sem álcool e fácil de se beber. Confirma se deseja o Suco Natural de Laranja ou pedir algo diferente?
+
+### [2026-10-12T17:00:49.210820+00:00] session=cli
+USER: tem suco de limão
+ASSISTANT:  Olá! Gostaria de pedir algo hoje? Temos disponível:
+
+* Cerveja IPA artesanal (cerveja, 6%, R$ 18)
+* Caipirinha (coquetel, ~15%, R$ 22)
+* Whisky single malt (destilado, 40%, R$ 35)
+* Gin tônica (coquetel, ~12%, R$ 24)
+* Vinho tinto seco (vinho, 13%, R$ 28)
+* Suco natural de laranja (sem álcool, 0%, R$ 12)
+* Água com gás (sem álcool, 0%, R$ 6)
+
+Porém, não estamos oferecendo hoje:
+
+* Cerveja de trigo belga
+* Vodka importada premium
+* Chopp de vinho
+
+Se desejar o Suco de Limão, temos disponível o Suco Natural de Laranja, que é sem álcool e fácil de se beber. Confirma se deseja o Suco Natural de Laranja ou pedir algo diferente?
+
+### [2026-10-12T17:01:13.719792+00:00] session=cli
+USER: queria um suco de vinho
+ASSISTANT:  Olá! Desculpe, mas não temos suco de vinho no menu hoje. Porém, recomendo o Suco Natural de Laranja, que é sem álcool e fácil de se beber. Confirma se deseja o Suco Natural de Laranja?
